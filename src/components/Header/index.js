@@ -1,4 +1,4 @@
-import {Link, WithRouter} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 
 import Cookies from 'js-cookie'
 
@@ -105,4 +105,4 @@ const Header = props => {
     </nav>
   )
 }
-export default WithRouter(Header)
+export default withRouter(Header)
